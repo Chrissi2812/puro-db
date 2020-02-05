@@ -1,0 +1,132 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Projekt 1",
+      "description": "This a short description",
+      "lanes": [
+        {
+          "title": "Todo",
+          "stories": [
+            {
+              "id": 1,
+              "title": "Story Title"
+            },
+            {
+              "id": 1,
+              "title": "Story Title"
+            },
+            {
+              "id": 3,
+              "title": "Story Title"
+            },
+            {
+              "id": 4,
+              "title": "Story Title"
+            }
+          ]
+        },
+        {
+          "title": "Working",
+          "stories": [
+            {
+              "id": 7,
+              "title": "Story Title"
+            },
+            {
+              "id": 5,
+              "title": "Story Title"
+            }
+          ]
+        },
+        {
+          "title": "Review",
+          "stories": []
+        },
+        {
+          "title": "Done",
+          "stories": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Projekt 2",
+      "description": "Another description",
+      "lanes": [
+        {
+          "title": "Todo",
+          "stories": [
+            {
+              "id": 10,
+              "title": "Story Title"
+            },
+            {
+              "id": 11,
+              "title": "Story Title"
+            },
+            {
+              "id": 13,
+              "title": "Story Title"
+            },
+            {
+              "id": 14,
+              "title": "Story Title"
+            }
+          ]
+        },
+        {
+          "title": "Working",
+          "stories": []
+        },
+        {
+          "title": "Review",
+          "stories": [
+            {
+              "id": 17,
+              "title": "Story Title"
+            },
+            {
+              "id": 15,
+              "title": "Story Title"
+            }
+          ]
+        },
+        {
+          "title": "Done",
+          "stories": []
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "title": "Customer 1",
+      "projects": [
+        {
+          "id": 1,
+          "title": "Projekt 1",
+          "description": "This a short description",
+          "lanes": {
+            "todo": 4,
+            "working": 2,
+            "review": 0,
+            "done": 0
+          }
+        },
+        {
+          "id": 2,
+          "title": "Projekt 2",
+          "description": "Another description",
+          "lanes": {
+            "todo": 4,
+            "working": 0,
+            "review": 2,
+            "done": 0
+          }
+        }
+      ]
+    }
+  ]
+}
