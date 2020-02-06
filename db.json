@@ -127,6 +127,34 @@
           }
         }
       ]
+    },
+    {
+      "id": 2,
+      "title": "ACME Group",
+      "projects": [
+        {
+          "id": 3,
+          "title": "Website Relaunch",
+          "description": "This a short description",
+          "lanes": {
+            "todo": 4,
+            "working": 2,
+            "review": 0,
+            "done": 0
+          }
+        },
+        {
+          "id": 6,
+          "title": "Awesome Print Brochure",
+          "description": "Another description",
+          "lanes": {
+            "todo": 10,
+            "working": 1,
+            "review": 2,
+            "done": 3
+          }
+        }
+      ]
     }
   ]
 }
